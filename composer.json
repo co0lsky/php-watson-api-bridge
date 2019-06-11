@@ -1,7 +1,13 @@
 {
     "name": "findbrok/php-watson-api-bridge",
     "description": "A simple PHP Wrapper around IBM Watson API",
-    "keywords": ["php", "ibm", "watson", "api", "bridge"],
+    "keywords": [
+        "php",
+        "ibm",
+        "watson",
+        "api",
+        "bridge"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -13,15 +19,16 @@
         "php": ">=5.5.0",
         "guzzlehttp/guzzle": "6.3.*",
         "illuminate/support": "~5.0",
-        "nesbot/carbon": "~1.20"
+        "nesbot/carbon": "^2.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "~3.0.0|~3.0",
-        "phpunit/phpunit": "~5.5|~4.0"
+        "phpunit/phpunit": "~5.5|~4.0",
+        "composer/composer": "^1.8"
     },
     "autoload": {
         "psr-4": {
-            "FindBrok\\WatsonBridge\\" : "src/"
+            "FindBrok\\WatsonBridge\\": "src/"
         }
     },
     "extra": {
